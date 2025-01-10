@@ -11,6 +11,6 @@ namespace Shoper.Domain.Entities
         public int CategoryId { get; set; }
         public string CategoryName { get; set; }
 
-        public ICollection<Product> Products { get; set; }//kategorinin birden fazla ürünü olabilir.
+      //  public ICollection<Product> Products { get; set; }//kategorinin birden fazla ürünü olabilir.
     }
 }
